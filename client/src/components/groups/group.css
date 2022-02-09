@@ -1,0 +1,92 @@
+.chat-groups .mb-4 {
+    color: #495057;
+    margin-bottom: 1.5rem;
+}
+
+.chat-groups .p-4 {
+    padding: 1.5rem;
+}
+
+.chat-groups .create-group {
+    float: right;
+}
+
+.chat-groups .search-box-group {
+    background-color: #e6ebf5;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: inherit;
+    height: inherit;
+    max-width: inherit;
+    max-height: inherit;
+    padding: 0.5rem;
+    color: #495057;
+}
+
+.chat-groups .search-box-group .search-group {
+    text-align: center;
+    z-index: 100px;
+    font-size: 1.5rem;
+    padding: 0.15rem;
+}
+
+.chat-groups .search-box-group .input-group {
+    width: 80%;
+    margin: 0 0.75rem;
+    padding: 0 0.5rem;
+    background-color: #e6ebf5;
+    border: none;
+}
+
+.chat-groups .groups {
+    width: inherit;
+    height: calc(100vh - 160px);
+    margin: 20px 0;
+}
+
+.chat-groups .groups ul {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.chat-groups .groups ul li {
+    padding: 20px;
+}
+
+.chat-groups .groups ul li a {
+    text-decoration: none;
+    color: #8e4aec;
+    position: relative;
+    display: block;
+}
+
+.chat-groups .groups ul li:hover {
+    background-color: #e6ebf5;
+    border-radius: 5px;
+}
+
+.chat-groups .groups .group-p {
+    display: flex;
+    align-items: center!important;
+}
+
+.chat-groups .groups .group-p .img-group {
+    background-color: #50a5f1;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.chat-groups .groups .group-p .img-group span {
+    padding: 1rem;
+}
+
+.chat-groups .groups .group-p .title-group {
+    padding: 0 10px;
+    flex: 1 1;
+}

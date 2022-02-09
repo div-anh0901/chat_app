@@ -1,0 +1,51 @@
+.video_call {
+    width: inherit;
+    height: inherit;
+}
+
+
+/* .video_call {
+    width: inherit;
+    height: inherit;
+} */
+
+.video_call .video_content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_call .video_content .video_sender {
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 1100;
+    height: 250px;
+    background-color: black;
+}
+
+.video_call .video_content .video_sender video {
+    width: inherit;
+    height: inherit;
+}
+
+.video_call .video_content .video_receiver {
+    width: 80%;
+    height: 80vh;
+    background-color: black;
+    position: relative;
+}
+
+.video_call .video_content .video_receiver .btn_phone {
+    position: absolute;
+    bottom: 20px;
+    border-radius: 50%;
+    color: white;
+    background: red;
+    border: none;
+    padding: 10px;
+    left: 48%;
+}

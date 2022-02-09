@@ -1,0 +1,72 @@
+div {
+    display: block;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.mesageContainer {
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.add_friend {
+    height: 70vh;
+}
+
+.chat-leftsidebar {
+    min-width: 380px;
+    min-width: 380px;
+    height: 10vh;
+    background-color: #f5f7fb;
+}
+
+.chat-leftsidebar .tap-content .d-none {
+    display: none;
+}
+
+.chatMessage {
+    min-width: 70%;
+}
+
+.chatMessage .message-input {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.chatMessage .message-input .messagepadding {
+    display: flex;
+    align-items: center;
+    width: inherit;
+}
+
+.chatMessage .message-input .messagepadding input {
+    padding: 14px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #e6ebf5;
+    border: none;
+    width: 80%;
+}
+
+.chatMessage .message-input .messagepadding .icon {
+    margin: 10px 20px;
+    color: #564ab1;
+}
+
+.videoContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.videoContainer.active {
+    display: none;
+}

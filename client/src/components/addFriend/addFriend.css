@@ -1,0 +1,23 @@
+.friend {
+    text-align: center;
+}
+
+.friend h1 {
+    color: #7a7f9a;
+    padding-top: 50px;
+}
+
+.friend .btn {
+    padding: 20px;
+}
+
+.friend .btn button {
+    padding: 10px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+
+/* #7a7f9a */
